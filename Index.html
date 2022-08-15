@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soptify</title>
+    <style>
+        * {
+            background-color: #171111;
+            color: white;
+        }
+        .navbar ul {
+            background-color: black;
+            font-size: larger;
+        }
+
+        .navbar #list1 h4{
+            position: absolute;
+            top: 10px;
+            left: 120px;
+
+        }
+        
+        .navbar #list2 {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: right;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .navbar ul li {
+            padding: 10px;
+        }
+
+        .phone p {
+            color: white;
+            position: absolute;
+            top: 370px;
+            left: 320px;
+            font-size: large;
+        }
+
+        .forms ul li {
+            background-color: aliceblue;
+            color: black;
+            list-style: none;
+        }
+
+        .forms a {
+            color: green;
+            background-color: white;
+        }
+
+        .forms ul {
+            background-color: aliceblue;
+            color: black;
+            list-style: none;
+        }
+
+        .forms ul li button {
+            background-color: green;
+            color: black;
+            width: 80px;
+            height: 40px;
+            border-radius: 30px;
+        }
+
+        .forms {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: right;
+            width: 550px;
+            padding: 10px;
+            position: relative;
+            bottom: 510px;
+            left: 470px;
+
+        }
+
+        .forms #list3 {
+            border-radius: 30px;
+            padding: 10px;
+        }
+
+        footer #Spotify {
+            position: relative;
+            bottom: 60px;
+            left: 60px;
+        }
+        
+        footer #Spotifylist1 {
+            position: relative;
+            bottom: 60px;
+            left: 60px;
+            list-style: none;
+        }
+
+        footer #Spotifylist2 {
+            position: relative;
+            bottom: 175px;
+            left: 290px;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <ul id="list1">
+            <img src="Screenshot 2022-07-27 182336.png" height="60px" width="60px">
+            <h4>Spotify</h4>
+            </ul>
+            <ul id="list2">
+                <li>Premium</li>
+                <li>Support</li>
+                <li>Download</li>
+            </ul>
+
+        </nav>
+    </div>
+    <div class="phone">
+        <img src="Screenshot 2022-07-27 183254.png"> <p>Your music. <br>Your podcasts. <br>Your Home.</p>
+    </div>
+    <div class="forms">
+        <form>
+            <ul id="list3">
+                <li>What should we call you? <br> <input type="text" style="background-color: white;"></li>
+                <li>Email <br> <input type="text" style="background-color: white;"></li>
+                <li>Create Password: <br> <input type="text" style="background-color: white;"></li>
+                <li>By clicking on sign-up, you are agree to Sptify's <a href="#"> Terms and Conditions of Use. </a> To learn more about how Spotify collects, uses, shares and protects your <br> personal data, please see <a href="#"> Spotify's Privacy Policy </a></li>
+                <li><button>Sign-in</button></li>
+                <li>Have an account? <a href="#">Log in. </a></li>
+            </ul> 
+        </form>
+    </div>
+    <footer>
+        <img src="Screenshot 2022-07-27 182336.png" height="60px" width="60px">
+            <h3 id="Spotify">Spotify</h3>
+            
+        <h3 id="Spotifylist1">COMPANY</h3>
+        <ul id="Spotifylist1">
+            <li>About</li>
+            <li>Jobs</li>
+            <li>For the records</li>
+        </ul>
+
+        
+        <h3 id="Spotifylist2">USEFUL LINKS</h3>
+        <ul id="Spotifylist2">
+            <li>Support</li>
+            <li>Web Player</li>
+            <li>Free Moblie App</li>
+        </ul>
+    </footer>
+
+</body>
+</html>
